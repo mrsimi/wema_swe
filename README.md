@@ -1,8 +1,8 @@
 # wema_swe
 
 ### File Structure: 
-wema_swe: contains the code 
-wema_swe.tests: contains the unit tests using xunit framework
+-**wema_swe**: contains the code 
+-**wema_swe**.tests: contains the unit tests using xunit framework
 
 ### Process flow for onboarding: 
 1. User initiates onboarding usnig the `onboarding/initiate` providing all the necessary details. In an even that the lga is not in the state and error response is returned asides the other error resposnes that could arise from the request itself. It then returns with a countdown and verificationReference 
